@@ -136,7 +136,7 @@ try {
                 <hr>
                 <form method="get" class="form-inline">
                     <span class="developed-by">
-                        Developed by <a href="https://www.linkedin.com/in/atikrahmanbd/" target="_blank"><strong>Atik Rahman</strong></a> with help from <a href="https://www.openai.com/chatgpt" target="_blank">ChatGPT</a>
+                        Developed by <a href="https://satisfyhost.com/" target="_blank"><strong>SatisfyHost</strong></a> with help from <a href="https://www.openai.com/chatgpt" target="_blank">ChatGPT</a>
                     </span>
                     <input type="hidden" name="action" value="<?= $status_info['status'] == 'Running' ? 'stop' : 'start' ?>">
                     <button class="btn <?= $status_info['status'] == 'Running' ? 'btn-danger' : 'btn-success' ?>" type="submit"><?= $status_info['status'] == 'Running' ? 'Stop Redis' : 'Start Redis' ?></button>
